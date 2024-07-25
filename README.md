@@ -1,0 +1,13 @@
+# Secret Rust
+
+env file
+RUST_LOG=error
+SERVER_ADDR=0.0.0.0:8080
+PG.USER=postgres
+PG.PASSWORD=PGPW
+PG.HOST=PGHOST
+PG.PORT=5432
+PG.DBNAME=benchmark
+PG.POOL.MAX_SIZE=50
+PG.SSL_MODE=Disable
+
