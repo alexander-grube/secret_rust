@@ -1152,21 +1152,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "postgres_test"
-version = "0.1.0"
-dependencies = [
- "actix-web",
- "config",
- "deadpool-postgres",
- "dotenv",
- "env_logger",
- "serde",
- "serde_json",
- "tokio-postgres",
- "uuid",
-]
-
-[[package]]
 name = "ppv-lite86"
 version = "0.2.17"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1322,6 +1307,21 @@ name = "scopeguard"
 version = "1.1.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "d29ab0c6d3fc0ee92fe66e2d99f700eab17a8d57d1c1d3b748380fb20baa78cd"
+
+[[package]]
+name = "secret_rust"
+version = "0.1.0"
+dependencies = [
+ "actix-web",
+ "config",
+ "deadpool-postgres",
+ "dotenv",
+ "env_logger",
+ "serde",
+ "serde_json",
+ "tokio-postgres",
+ "uuid",
+]
 
 [[package]]
 name = "semver"
